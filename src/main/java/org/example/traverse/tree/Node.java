@@ -1,10 +1,10 @@
 package org.example.traverse.tree;
 
 public class Node {
-    int value;
-    Node left, right;
+    public int value;
+    public Node left, right;
 
-    Node(int value) {
+    public Node(int value) {
         this.value = value;
         left = right = null;
     }
